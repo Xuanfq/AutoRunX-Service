@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "绝对值",
+    "node_name": "dtpc-abs",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number": 0
+    },
+    "input_type": {
+        "number": "number"
+    },
+    "input_intro": {
+        "number": "A: 数值"
+    },
+    "output": {
+        "result": 0
+    },
+    "output_type": {
+        "result": "number"
+    },
+    "output_intro": {
+        "result": "Result: 数值"
+    }
+}

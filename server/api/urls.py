@@ -17,8 +17,10 @@ urlpatterns = [
     path("user/login", api_user.login),
     path("user/info", api_user.get_info),
     
-    path("node/get", api_node.get),
+    path("node/getconfig", api_node.get_config),
+    path("node/getreadme", api_node.get_readme),
     path("node/add", api_node.add),
+    path("node/sync", api_node.sync),
     path("node/delete", api_node.delete),
     
     path("app/add",api_app.add),

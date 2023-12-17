@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "字符串比较==",
+    "node_name": "dtpc-eq_string",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "string_1": "",
+        "string_2": ""
+    },
+    "input_type": {
+        "string_1": "string",
+        "string_2": "string"
+    },
+    "input_intro": {
+        "string_1": "A: 字符串",
+        "string_2": "B: 字符串"
+    },
+    "output": {
+        "result": true
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "A==B: 布尔"
+    }
+}

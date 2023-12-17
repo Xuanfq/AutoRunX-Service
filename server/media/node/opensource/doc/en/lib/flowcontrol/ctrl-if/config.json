@@ -1,0 +1,21 @@
+{
+    "id": "",
+    "name": "If Condition",
+    "node_name": "ctrl-if",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": ["",""],
+    "nxt_edge_id_intro": ["True: execute","False: execute"],
+    "input": {
+        "bool": false
+    },
+    "input_type": {
+        "bool": "bool"
+    },
+    "input_intro": {
+        "bool": "condition: bool"
+    },
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

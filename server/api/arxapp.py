@@ -222,7 +222,7 @@ class AppController(Thread):
 
 # app manager
 class AppManager:
-    def __init__(self, app_base_path, websocket_support=True, websocket_port=8765, token_auth_funcion=None, max_app_num=9999) -> None:
+    def __init__(self, app_base_path, fault_detect_recovery_support=True, websocket_support=True, websocket_port=8765, token_auth_funcion=None, max_app_num=9999) -> None:
         self._app_base_path = app_base_path
         self._max_app = 9999
         self._pool_map = {}
@@ -231,7 +231,8 @@ class AppManager:
         self._websocket_port = websocket_port
         self._websocket = None
         self._token_auth_funcion = token_auth_funcion
-        self._fault_detect_recovery()
+        if fault_detect_recovery_support:
+            self._fault_detect_recovery()
         if websocket_support:
             self._start_websocket_server(port=websocket_port)
 

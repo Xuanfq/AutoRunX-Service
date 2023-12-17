@@ -19,8 +19,11 @@ GATEWAY_01_WHITELIST = [
 
 GATEWAY_01_PERMISSION = {
     '/api/node/get': 'api.view_node',
+    '/api/node/sync': 'api.add_node',
     '/api/node/add': 'api.add_node',
     '/api/node/delete': 'api.delete_node',
+    '/api/node/getconfig': 'api.view_node',
+    '/api/node/getreadme': 'api.view_node',
     '/api/app/get': 'api.view_app',
     '/api/app/download/result': 'api.view_app',
     '/api/app/add': 'api.add_app',

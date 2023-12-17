@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "取余",
+    "node_name": "dtpc-mod",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number_1": 0,
+        "number_2": 1
+    },
+    "input_type": {
+        "number_1": "number",
+        "number_2": "number"
+    },
+    "input_intro": {
+        "number_1": "被除数: 数值",
+        "number_2": "除数: 数值"
+    },
+    "output": {
+        "result": 0
+    },
+    "output_type": {
+        "result": "number"
+    },
+    "output_intro": {
+        "result": "余数: 数值"
+    }
+}

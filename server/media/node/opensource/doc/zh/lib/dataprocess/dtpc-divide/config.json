@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "除法",
+    "node_name": "dtpc-divide",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number_1": 0,
+        "number_2": 1
+    },
+    "input_type": {
+        "number_1": "number",
+        "number_2": "number"
+    },
+    "input_intro": {
+        "number_1": "被除数: 数值",
+        "number_2": "被数: 数值"
+    },
+    "output": {
+        "result": 0
+    },
+    "output_type": {
+        "result": "number"
+    },
+    "output_intro": {
+        "result": "商: 数值"
+    }
+}

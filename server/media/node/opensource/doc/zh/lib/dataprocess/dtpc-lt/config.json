@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "数值比较<",
+    "node_name": "dtpc-lt",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number_1": 0,
+        "number_2": 0
+    },
+    "input_type": {
+        "number_1": "number",
+        "number_2": "number"
+    },
+    "input_intro": {
+        "number_1": "A: 数值",
+        "number_2": "B: 数值"
+    },
+    "output": {
+        "result": false
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "A<B: 布尔"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "string ==",
+    "node_name": "dtpc-eq_string",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "string_1": "",
+        "string_2": ""
+    },
+    "input_type": {
+        "string_1": "string",
+        "string_2": "string"
+    },
+    "input_intro": {
+        "string_1": "A: string",
+        "string_2": "B: string"
+    },
+    "output": {
+        "result": true
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "A==B: bool"
+    }
+}

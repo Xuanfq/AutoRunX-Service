@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "字符串",
+    "node_name": "dtio-i-string",
+    "node_type": "dtio",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": ""
+    },
+    "input_type": {
+        "value": "def_string"
+    },
+    "input_intro": {
+        "value": "字符串定义"
+    },
+    "output": {
+        "value": ""
+    },
+    "output_type": {
+        "value": "string"
+    },
+    "output_intro": {
+        "value": "Value: 字符串"
+    }
+}

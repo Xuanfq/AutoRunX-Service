@@ -1,0 +1,5 @@
+{
+    "LOG_MODULE_NAME": "log",
+    "COMMON_LOG_FILE": "log/common.log",
+    "LOG_FILE": "log/func.log"
+}

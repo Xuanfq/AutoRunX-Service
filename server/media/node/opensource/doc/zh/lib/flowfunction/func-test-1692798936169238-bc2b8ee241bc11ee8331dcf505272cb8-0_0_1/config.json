@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "测试",
+    "node_name": "func-test-1692798936169238-bc2b8ee241bc11ee8331dcf505272cb8-0_0_1",
+    "node_type": "func",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": ""
+    },
+    "input_type": {
+        "value": "string"
+    },
+    "input_intro": {
+        "value": "测试值: 字符串"
+    },
+    "output": {
+        "value": ""
+    },
+    "output_type": {
+        "value": "string"
+    },
+    "output_intro": {
+        "value": "测试值: 字符串"
+    }
+}

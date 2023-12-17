@@ -1,0 +1,19 @@
+{
+    "id": "",
+    "name": "start",
+    "node_name": "evrx-start",
+    "node_type": "evrx",
+    "pre_edge_id": [],
+    "nxt_edge_id": [
+        ""
+    ],
+    "nxt_edge_id_intro": [
+        "next: execute"
+    ],
+    "input": {},
+    "input_type": {},
+    "input_intro": {},
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

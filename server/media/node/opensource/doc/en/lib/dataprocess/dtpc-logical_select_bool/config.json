@@ -1,0 +1,32 @@
+{
+    "id": "",
+    "name": "logic select bool",
+    "node_name": "dtpc-logical_select_bool",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "bool": false,
+        "bool_1": true,
+        "bool_2": false
+    },
+    "input_type": {
+        "bool": "bool",
+        "bool_1": "bool",
+        "bool_2": "bool"
+    },
+    "input_intro": {
+        "bool": "A: bool",
+        "bool_1": "B1: bool",
+        "bool_2": "B2: bool"
+    },
+    "output": {
+        "result": false
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "B1/B2: bool"
+    }
+}

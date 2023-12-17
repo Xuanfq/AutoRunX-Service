@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "int number",
+    "node_name": "dtio-i-int",
+    "node_type": "dtio",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": 0
+    },
+    "input_type": {
+        "value": "def_int"
+    },
+    "input_intro": {
+        "value": "int definition"
+    },
+    "output": {
+        "value": 0
+    },
+    "output_type": {
+        "value": "number"
+    },
+    "output_intro": {
+        "value": "Value: int number"
+    }
+}

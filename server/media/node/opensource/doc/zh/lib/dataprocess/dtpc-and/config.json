@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "逻辑与",
+    "node_name": "dtpc-and",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "bool_1": false,
+        "bool_2": false
+    },
+    "input_type": {
+        "bool_1": "bool",
+        "bool_2": "bool"
+    },
+    "input_intro": {
+        "bool_1": "A: 布尔",
+        "bool_2": "B: 布尔"
+    },
+    "output": {
+        "result": false
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "Result: 布尔"
+    }
+}

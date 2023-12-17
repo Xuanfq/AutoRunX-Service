@@ -1,0 +1,21 @@
+{
+    "id": "",
+    "name": "If条件执行",
+    "node_name": "ctrl-if",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": ["",""],
+    "nxt_edge_id_intro": ["True: 执行","False: 执行"],
+    "input": {
+        "bool": false
+    },
+    "input_type": {
+        "bool": "bool"
+    },
+    "input_intro": {
+        "bool": "条件: 布尔"
+    },
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

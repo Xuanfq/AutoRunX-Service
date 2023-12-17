@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "not",
+    "node_name": "dtpc-not",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "bool": false
+    },
+    "input_type": {
+        "bool": "bool"
+    },
+    "input_intro": {
+        "bool": "A: bool"
+    },
+    "output": {
+        "result": true
+    },
+    "output_type": {
+        "result": "bool"
+    },
+    "output_intro": {
+        "result": "!A: bool"
+    }
+}

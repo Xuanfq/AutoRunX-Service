@@ -1,0 +1,36 @@
+{
+    "id": "",
+    "name": "For Loop",
+    "node_name": "ctrl-for",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": [""],
+    "nxt_edge_id_intro":["next: execute"],
+    "input": {
+        "start_index":0,
+        "end_index":5,
+        "step":1
+    },
+    "input_type": {
+        "start_index":"number",
+        "end_index":"number",
+        "step":"number"
+    },
+    "input_intro": {
+      "start_index": "start_i: number",
+      "end_index": "end_i: number",
+      "step": "step: number"
+    },
+    "output": {
+        "index": 0,
+        "loop_edge_id": ""
+    },
+    "output_type": {
+        "index": "number",
+        "loop_edge_id": "nxt_edge_id"
+    },
+    "output_intro": {
+      "index": "index: number",
+      "loop_edge_id": "main: execute"
+    }
+}

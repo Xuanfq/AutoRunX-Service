@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "浮点数值",
+    "node_name": "dtio-i-float",
+    "node_type": "dtio",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": 0.0
+    },
+    "input_type": {
+        "value": "def_float"
+    },
+    "input_intro": {
+        "value": "浮点数值定义"
+    },
+    "output": {
+        "value": 0.0
+    },
+    "output_type": {
+        "value": "number"
+    },
+    "output_intro": {
+        "value": "Value: 浮点数值"
+    }
+}

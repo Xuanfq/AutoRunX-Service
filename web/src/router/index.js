@@ -117,6 +117,22 @@ export const asyncRoutes = [
       }
     ]
   },
+  {
+    path: '/creator',
+    component: Layout,
+    redirect: '/creator',
+    meta:{
+      roles:['admin','node-user']
+    },
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/creator/index'),
+        name: 'Creator',
+        meta: { title: 'creator', icon: 'creator', affix: true }
+      }
+    ]
+  },
 
   {
     path: '/error-log',

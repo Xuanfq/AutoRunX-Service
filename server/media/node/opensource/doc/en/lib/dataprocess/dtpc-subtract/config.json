@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "subtract",
+    "node_name": "dtpc-subtract",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number_1": 0,
+        "number_2": 0
+    },
+    "input_type": {
+        "number_1": "number",
+        "number_2": "number"
+    },
+    "input_intro": {
+        "number_1": "minuend: number",
+        "number_2": "subtractor: number"
+    },
+    "output": {
+        "result": 0
+    },
+    "output_type": {
+        "result": "number"
+    },
+    "output_intro": {
+        "result": "sum: number"
+    }
+}

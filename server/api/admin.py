@@ -6,7 +6,7 @@ from . import models
 
 @admin.register(models.Node)
 class NodeAdmin(admin.ModelAdmin):
-    list_display = ('node_name', 'name', 'node_type','update_time','create_time')
+    list_display = ('node_name', 'name','node_type', 'lib_id', 'lang','update_time','create_time')
     list_display_links = ('node_name',)
     pass
 

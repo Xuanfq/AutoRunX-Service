@@ -1,0 +1,37 @@
+{
+    "id": "",
+    "name": "Execute Queues",
+    "node_name": "ctrl-queue",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "nxt_edge_id_intro": [
+        "next 0: execute",
+        "next 1: execute",
+        "next 2: execute",
+        "next 3: execute",
+        "next 4: execute",
+        "next 5: execute",
+        "next 6: execute",
+        "next 7: execute",
+        "next 8: execute",
+        "next 9: execute"
+    ],
+    "input": {},
+    "input_type": {},
+    "input_intro": {},
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

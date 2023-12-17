@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "bool",
+    "node_name": "dtio-i-bool",
+    "node_type": "dtio",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": false
+    },
+    "input_type": {
+        "value": "def_bool"
+    },
+    "input_intro": {
+        "value": "bool definition"
+    },
+    "output": {
+        "value": false
+    },
+    "output_type": {
+        "value": "bool"
+    },
+    "output_intro": {
+        "value": "Value: bool"
+    }
+}

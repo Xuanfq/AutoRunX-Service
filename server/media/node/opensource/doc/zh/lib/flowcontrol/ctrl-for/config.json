@@ -1,0 +1,36 @@
+{
+    "id": "",
+    "name": "For循环执行",
+    "node_name": "ctrl-for",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": [""],
+    "nxt_edge_id_intro":["下一步: 执行"],
+    "input": {
+        "start_index":0,
+        "end_index":5,
+        "step":1
+    },
+    "input_type": {
+        "start_index":"number",
+        "end_index":"number",
+        "step":"number"
+    },
+    "input_intro": {
+      "start_index": "开头: 数值",
+      "end_index": "结尾: 数值",
+      "step": "递进: 数值"
+    },
+    "output": {
+        "index": 0,
+        "loop_edge_id": ""
+    },
+    "output_type": {
+        "index": "number",
+        "loop_edge_id": "nxt_edge_id"
+    },
+    "output_intro": {
+      "index": "索引: 数值",
+      "loop_edge_id": "循环主体: 执行"
+    }
+}

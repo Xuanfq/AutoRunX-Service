@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "float number",
+    "node_name": "dtio-i-float",
+    "node_type": "dtio",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "value": 0.0
+    },
+    "input_type": {
+        "value": "def_float"
+    },
+    "input_intro": {
+        "value": "float definition"
+    },
+    "output": {
+        "value": 0.0
+    },
+    "output_type": {
+        "value": "number"
+    },
+    "output_intro": {
+        "value": "Value: float number"
+    }
+}

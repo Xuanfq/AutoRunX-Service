@@ -1,0 +1,29 @@
+{
+    "id": "",
+    "name": "add",
+    "node_name": "dtpc-add",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number_1": 0,
+        "number_2": 0
+    },
+    "input_type": {
+        "number_1": "number",
+        "number_2": "number"
+    },
+    "input_intro": {
+        "number_1": "addend: number",
+        "number_2": "summand: number"
+    },
+    "output": {
+        "result": 0
+    },
+    "output_type": {
+        "result": "number"
+    },
+    "output_intro": {
+        "result": "sum: number"
+    }
+}

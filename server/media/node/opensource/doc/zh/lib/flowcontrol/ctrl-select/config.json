@@ -1,0 +1,43 @@
+{
+    "id": "",
+    "name": "选择执行",
+    "node_name": "ctrl-select",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "nxt_edge_id_intro": [
+        "0: 执行",
+        "1: 执行",
+        "2: 执行",
+        "3: 执行",
+        "4: 执行",
+        "5: 执行",
+        "6: 执行",
+        "7: 执行",
+        "8: 执行",
+        "9: 执行"
+    ],
+    "input": {
+        "index": 0
+    },
+    "input_type": {
+        "index": "number"
+    },
+    "input_intro": {
+        "index": "选择索引: 数值"
+    },
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

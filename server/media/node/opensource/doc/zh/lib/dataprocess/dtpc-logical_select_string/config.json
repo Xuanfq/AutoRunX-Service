@@ -1,0 +1,32 @@
+{
+    "id": "",
+    "name": "逻辑选择字符串",
+    "node_name": "dtpc-logical_select_string",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "bool": false,
+        "string_1": "",
+        "string_2": ""
+    },
+    "input_type": {
+        "bool": "bool",
+        "string_1": "string",
+        "string_2": "string"
+    },
+    "input_intro": {
+        "bool": "A: 布尔",
+        "string_1": "B1: 字符串",
+        "string_2": "B2: 字符串"
+    },
+    "output": {
+        "result": ""
+    },
+    "output_type": {
+        "result": "string"
+    },
+    "output_intro": {
+        "result": "B1/B2: 字符串"
+    }
+}

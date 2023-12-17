@@ -11,6 +11,7 @@ APP_MANAGER_APP_BASE_PATH = settings.APP_MANAGER['APP_BASE_PATH']
 APP_MANAGER_MAX_APP_NUMBER = settings.APP_MANAGER['MAX_APP_NUMBER']
 APP_MANAGER_WEBSOCKET_PORT = settings.APP_MANAGER['WEBSOCKET']['port']
 APP_MANAGER_WEBSOCKET_OPEN = settings.APP_MANAGER['WEBSOCKET']['open']
+FAULT_DETECT_RECOVERY_OPEN = settings.APP_MANAGER['FAULT_DETECT_RECOVERY']['open']
 
 
 # token center
@@ -19,6 +20,7 @@ tokencenter = JWTToken(secret_key=TOKEN_CENTER_SECRET_KEY,
 
 # app manager
 appmanager = AppManager(app_base_path=APP_MANAGER_APP_BASE_PATH,
+                        fault_detect_recovery_support=FAULT_DETECT_RECOVERY_OPEN,
                         websocket_support=APP_MANAGER_WEBSOCKET_OPEN,
                         websocket_port=APP_MANAGER_WEBSOCKET_PORT,
                         max_app_num=APP_MANAGER_MAX_APP_NUMBER,

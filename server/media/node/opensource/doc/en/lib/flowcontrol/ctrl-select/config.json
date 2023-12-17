@@ -1,0 +1,43 @@
+{
+    "id": "",
+    "name": "Select Execute",
+    "node_name": "ctrl-select",
+    "node_type": "ctrl",
+    "pre_edge_id": [],
+    "nxt_edge_id": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "nxt_edge_id_intro": [
+        "0: execute",
+        "1: execute",
+        "2: execute",
+        "3: execute",
+        "4: execute",
+        "5: execute",
+        "6: execute",
+        "7: execute",
+        "8: execute",
+        "9: execute"
+    ],
+    "input": {
+        "index": 0
+    },
+    "input_type": {
+        "index": "number"
+    },
+    "input_intro": {
+        "index": "index: number"
+    },
+    "output": {},
+    "output_type": {},
+    "output_intro": {}
+}

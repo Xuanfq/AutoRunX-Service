@@ -20,6 +20,9 @@ import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
 
+import VueMarkdown from 'vue-markdown';
+
+Vue.component('VueMarkdown', VueMarkdown)
 
 /**
  * If you don't want to use mock-server

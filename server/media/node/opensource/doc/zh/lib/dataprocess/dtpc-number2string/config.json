@@ -1,0 +1,26 @@
+{
+    "id": "",
+    "name": "数值转字符串",
+    "node_name": "dtpc-number2string",
+    "node_type": "dtpc",
+    "pre_edge_id": [],
+    "nxt_edge_id": [],
+    "input": {
+        "number": 0
+    },
+    "input_type": {
+        "number": "number"
+    },
+    "input_intro": {
+        "number": "数值"
+    },
+    "output": {
+        "result": "0"
+    },
+    "output_type": {
+        "result": "string"
+    },
+    "output_intro": {
+        "result": "Result: 字符串"
+    }
+}

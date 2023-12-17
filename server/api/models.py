@@ -47,6 +47,8 @@ class Node(models.Model):
                                    default="[]",)
     nxt_edge_id = models.TextField(blank=False,
                                    default="[]",)
+    nxt_edge_id_intro = models.TextField(blank=False,
+                                   default="[]",)
     input = models.TextField(blank=False,
                              default="{}",)
     input_type = models.TextField(blank=False,
@@ -63,6 +65,21 @@ class Node(models.Model):
                               default='',
                               null=True,
                               help_text='README.md')
+    lang = models.CharField(max_length=2,
+                            default=None,
+                            choices=(
+                                ("zh", "Chinese"),
+                                ("en", "English"),
+                                ("es", "Spanish"),
+                                ("ja", "Japanese"),
+                            ),
+                            help_text="node lang")
+    lib_id = models.CharField(max_length=128,
+                              default=None,
+                              choices=(
+                                  ("opensource", "OpenSource"),
+                              ),
+                              help_text="node lang")
     update_time = models.DateTimeField(auto_now=True)
     create_time = models.DateTimeField(auto_now_add=True)
     delete_time = models.DateTimeField(blank=True,

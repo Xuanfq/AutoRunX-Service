@@ -1,7 +1,7 @@
 
 import os
 
-TOKEN_CENTER={
+TOKEN_CENTER = {
     'SECRET_KEY': 'rxGztJqAVAMt1i6hOZ63k8uITHq6f2UgjSUHXcVFt6y5kp7noHVpPVt553CofZ0c',
     'EXPIRE_TIME': 3600*24*7,
 }
@@ -9,8 +9,13 @@ TOKEN_CENTER={
 APP_MANAGER = {
     'APP_BASE_PATH': os.path.join(os.getcwd(), 'media'),
     'MAX_APP_NUMBER': 999999,
+    'FAULT_DETECT_RECOVERY': {
+        # 'open': True,
+        'open': False
+    },
     'WEBSOCKET': {
-        'open': True,
+        # 'open': True,
+        'open': False,
         'port': 8765
     }
 }
