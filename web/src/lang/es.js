@@ -2,6 +2,7 @@ export default {
   route: {
     app: 'App',
     creator: 'App Creator',
+    admin: 'Admin',
     dashboard: 'Panel de control',
     documentation: 'Documentación',
     guide: 'Guía',

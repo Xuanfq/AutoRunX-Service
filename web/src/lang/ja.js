@@ -2,6 +2,7 @@ export default {
   route: {
     app: 'トラバ',
     creator: 'アプリケーションビルダー',
+    admin: 'かんり',
     dashboard: 'トップ',
     documentation: 'ドキュメント',
     guide: 'ガイド',

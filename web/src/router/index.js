@@ -168,6 +168,23 @@ export const asyncRoutes = [
     ]
   },
   
+  {
+    path: '/admin',
+    component: Layout,
+    redirect: '/admin',
+    meta:{
+      roles:['admin']
+    },
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/admin/index'),
+        name: 'Admin',
+        meta: { title: 'admin', icon: 'pm', affix: true }
+      }
+    ]
+  },
+
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }
 ]

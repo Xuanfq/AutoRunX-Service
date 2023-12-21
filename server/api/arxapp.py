@@ -163,10 +163,6 @@ class AppController(Thread):
                 self._on_stdio_callback(stdin, None, msg)
         if self._on_stdio_callback is not None:
             self._on_stdio_callback(None, None, None)
-        # self._process.wait()
-        # outinfo, errinfo = self._process.communicate()
-        # outinfo = outinfo.decode()
-        # errinfo = errinfo.decode()
         self._compress_workspace_to_resultzip()
         # abort callback
         if self._status_abort and self._on_abort_callback:
@@ -183,11 +179,6 @@ class AppController(Thread):
         if self._on_end_callback:
             self._on_end_callback(*self._on_end_callback_args,
                                   **self._on_end_callback_kwargs)
-
-    def communicate(self) -> (bytes, bytes):
-        if self._status_started:
-            return self._stdout, self._stderr
-        return None, None
 
     def schedule(self, start_datetime: datetime):
         with self._status_lock:

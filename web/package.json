@@ -1,8 +1,8 @@
 {
   "name": "autorunx-app-admin",
   "version": "0.0.1",
-  "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
-  "author": "Pan <panfree23@gmail.com>",
+  "description": "Web for AutoRunX, AutoRunX is an open source low code framework.",
+  "author": "Xuanfq <2624208682@qq.com>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "lint": "eslint --ext .js,.vue src",

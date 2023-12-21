@@ -2,6 +2,7 @@ export default {
   route: {
     app: '应用',
     creator: '应用构建器',
+    admin: '超级管理',
     dashboard: '首页',
     documentation: '文档',
     guide: '引导页',
