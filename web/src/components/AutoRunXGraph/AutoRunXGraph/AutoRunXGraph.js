@@ -1010,12 +1010,16 @@ G6.registerBehavior('custom-operate', {
 									this.edgeEndpointAnchorPointType === 'pre_edge_id')) {
 								isEdgeValid = true
 							} else if (anchorPointClass === 'input' && this.edgeEndpointAnchorPointClass === 'output' &&
-								anchorPointType == this.edgeEndpointAnchorPointType) {
-								isEdgeValid = true
-							} else if (anchorPointClass === 'output' && this.edgeEndpointAnchorPointClass === 'input' &&
-								anchorPointType == this.edgeEndpointAnchorPointType) {
-								isEdgeValid = true
-							}
+  							(anchorPointType == this.edgeEndpointAnchorPointType ||
+  								((this.edgeEndpointAnchorPointType == 'number' || this.edgeEndpointAnchorPointType == 'int' || this.edgeEndpointAnchorPointType == 'float') &&
+  									(anchorPointType == 'number' || anchorPointType == 'int' || anchorPointType == 'float')))) {
+  							isEdgeValid = true
+  						} else if (anchorPointClass === 'output' && this.edgeEndpointAnchorPointClass === 'input' &&
+  							(anchorPointType == this.edgeEndpointAnchorPointType ||
+  								((this.edgeEndpointAnchorPointType == 'number' || this.edgeEndpointAnchorPointType == 'int' || this.edgeEndpointAnchorPointType == 'float') &&
+  									(anchorPointType == 'number' || anchorPointType == 'int' || anchorPointType == 'float')))) {
+  							isEdgeValid = true
+  						}
 						}
 					}
 				}
